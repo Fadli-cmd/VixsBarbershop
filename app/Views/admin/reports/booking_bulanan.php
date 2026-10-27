@@ -89,7 +89,6 @@
                                     <th class="sortable" data-sort="tanggal">Tanggal</th>
                                     <th class="sortable" data-sort="paket">Nama Paket</th>
                                     <th class="sortable" data-sort="harga">Harga Paket</th>
-                                    <th class="sortable" data-sort="total">Total Bayar</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -343,7 +342,6 @@
                         '<td>' + (it.tanggal || '') + '</td>' +
                         '<td>' + (it.paket || '') + '</td>' +
                         '<td>' + (it.harga || '') + '</td>' +
-                        '<td>' + (it.total || '') + '</td>' +
                         '</tr>';
                     tbody.append(row);
                 }

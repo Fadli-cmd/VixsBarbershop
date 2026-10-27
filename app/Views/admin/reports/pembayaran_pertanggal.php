@@ -29,7 +29,7 @@
                         <input type="date" class="form-control" id="singleDate" name="single_date" value="<?= isset($_GET['single_date']) ? $_GET['single_date'] : '' ?>">
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="form-group">
                         <label for="startDate">Tanggal Mulai</label>
                         <input type="date" class="form-control" id="startDate" name="start_date" value="<?= isset($_GET['start_date']) ? $_GET['start_date'] : '' ?>">
@@ -40,7 +40,7 @@
                         <label for="endDate">Tanggal Akhir</label>
                         <input type="date" class="form-control" id="endDate" name="end_date" value="<?= isset($_GET['end_date']) ? $_GET['end_date'] : '' ?>">
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row">
                 <div class="col-md-12">
